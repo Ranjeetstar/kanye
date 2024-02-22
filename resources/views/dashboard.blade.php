@@ -24,7 +24,7 @@
                 </div>
                 <div class="p-5">
                     @foreach($datas as $data)
-                    <h4>{{ $data}}</h4>
+                    <li>{{ $data}}</li>
                     @endforeach
                 </div>
             </div>
